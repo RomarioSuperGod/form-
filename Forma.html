@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forma</title>
+</head>
+<body>
+<div>
+	<fieldset>
+		<legend>Інформація про об'єдкі</legend>
+<p><label for="title">Заголовок</label></p>
+<p>
+	<input type="text" name="nameobj" placeholder="Ввeдіть назву об'їдка" id="title">
+</p>
+<p><label for="photo">Фото об'їдка</label></p>
+<p><input type="file" name="chfile" value="Вибрати файл" id="photo"></p>
+
+<p><label for="price">Цінф кв метр</label></p>
+<p><input type="number" name="pricefile" placeholder="введіть ціну" id="price"></p>
+
+<p><label for="class"> клас об'їдка</label></p>
+<p><input type="text" name="clobj" placeholder="введіть клас об'їдка" id="class"></p>
+
+<p><label for="status">статус</label></p>
+<p>
+	<select name="проект" id="status">
+		<option value="">проект</option>
+		<option value="">будується</option>
+ 		<option value="">зданий</option>
+		<option value="">скандальний</option>
+	</select>
+</p>
+<p><label for="reit">рейтинг</label></p>
+<input type="checkbox" name="reit" id="reit">
+	</fieldset>
+</div>
+<div>
+	<fieldset>
+		<legend>Адреса</legend>
+	<p><label for="misto">Mісто</label>
+		<input type="text" name="city" id="misto" placeholder="введіть назву міста">
+	</p>
+
+	<p><label for="quartal">Район</label>
+		<input type="text" name="quartal" id="quartal" placeholder="введіть назву мікрорайона">
+	</p>
+
+	<p><label for="street">Вулиця</label>
+		<input type="text" name="street" id="street" placeholder="enter strret name">
+	</p>
+
+	</fieldset>
+</div>
+<div>
+	<fieldset>
+		<legend>Контент</legend>
+		<textarea name="kont" cols="25" rows="10" id="kont"></textarea>
+	</fieldset>
+</div>
+<div>
+	<p><input type="submit" name="knopka" value="Зберегти">
+	   <input type="reset" name="knopka2" value="Скасувати">
+		 </p>
+</div>
+	
+</body>
+</html>
